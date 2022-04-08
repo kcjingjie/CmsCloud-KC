@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.mallplus.common.redis.properties.CacheManagerProperties",
+      "name": "mall.cache-manager",
+      "type": "com.mallplus.common.redis.properties.CacheManagerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.mallplus.common.redis.properties.CacheManagerProperties",
+      "name": "mall.cache-manager.configs",
+      "type": "java.util.List<com.mallplus.common.redis.properties.CacheManagerProperties.CacheConfig>"
+    }
+  ]
+}

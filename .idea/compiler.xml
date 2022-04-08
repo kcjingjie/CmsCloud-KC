@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cms-auth-client-spring-boot-starter" />
+        <module name="cms-center" />
+        <module name="cms-common-spring-boot-starter" />
+        <module name="cms-db-spring-boot-starter" />
+        <module name="cms-log-spring-boot-starter" />
+        <module name="cms-redis-spring-boot-starter" />
+        <module name="cms-ribbon-spring-boot-starter" />
+        <module name="cms-sentinel-spring-boot-starter" />
+        <module name="cms-springgateway" />
+        <module name="cms-swagger2-spring-boot-starter" />
+        <module name="cmscenter" />
+        <module name="cmsgateway" />
+        <module name="mall-auth-client-spring-boot-starter" />
+        <module name="mall-db-spring-boot-starter" />
+        <module name="mall-redis-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cms-common" target="1.8" />
+      <module name="cmsbusiness" target="1.8" />
+      <module name="cmscommons" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demotet" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

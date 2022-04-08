@@ -1,0 +1,124 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "name": "mall.swagger",
+      "type": "com.mallplus.common.swagger2.SwaggerProperties"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "name": "mall.swagger.contact",
+      "type": "com.mallplus.common.swagger2.SwaggerProperties$Contact"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.base-package",
+      "description": "swagger会解析的包路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "name": "mall.swagger.base-path",
+      "description": "swagger会解析的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "",
+      "name": "mall.swagger.contact.email",
+      "description": "联系人email",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "",
+      "name": "mall.swagger.contact.name",
+      "description": "联系人",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "",
+      "name": "mall.swagger.contact.url",
+      "description": "联系人url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.description",
+      "description": "描述",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "name": "mall.swagger.docket",
+      "description": "分组文档",
+      "type": "java.util.Map<java.lang.String,com.mallplus.common.swagger2.SwaggerProperties.DocketInfo>"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "name": "mall.swagger.enabled",
+      "description": "是否开启swagger",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "name": "mall.swagger.exclude-path",
+      "description": "在basePath基础上需要排除的url规则",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "name": "mall.swagger.global-operation-parameters",
+      "description": "全局参数配置",
+      "type": "java.util.List<com.mallplus.common.swagger2.SwaggerProperties.GlobalOperationParameter>"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.host",
+      "description": "host信息",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.license",
+      "description": "许可证",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.license-url",
+      "description": "许可证URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.terms-of-service-url",
+      "description": "服务条款URL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.title",
+      "description": "标题",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.mallplus.common.swagger2.SwaggerProperties",
+      "defaultValue": "",
+      "name": "mall.swagger.version",
+      "description": "版本",
+      "type": "java.lang.String"
+    }
+  ]
+}
