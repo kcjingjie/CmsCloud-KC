@@ -9,14 +9,10 @@
     <artifactId>cms-center</artifactId>
     <dependencies>
         <!-- 公共实体类模块 -->
-       <!-- <dependency>
+        <dependency>
             <groupId>com.kc</groupId>
-            <artifactId>cms-config</artifactId>
-        </dependency>-->
-        <!--<dependency>
-            <groupId>com.kc</groupId>
-            <artifactId>cms-common</artifactId>
-        </dependency>-->
+            <artifactId>cms-auth-client-spring-boot-starter</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.kc</groupId>
             <artifactId>cms-db-spring-boot-starter</artifactId>
