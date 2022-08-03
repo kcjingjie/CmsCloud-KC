@@ -3,7 +3,6 @@ package com.kc.common.model;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.kc.common.entity.BaseEntity;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -18,7 +17,7 @@ import java.io.Serializable;
  */
 @Data
 @TableName("sys_role_menu")
-public class SysRoleMenu extends BaseEntity implements Serializable {
+public class SysRoleMenu implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

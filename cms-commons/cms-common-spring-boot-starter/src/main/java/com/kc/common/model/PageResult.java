@@ -1,6 +1,5 @@
 package com.kc.common.model;
 
-import com.kc.common.entity.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,7 +17,7 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class PageResult<T> extends BaseEntity implements Serializable {
+public class PageResult<T> implements Serializable {
     private static final long serialVersionUID = -275582248840137389L;
     /**
      * 总数
