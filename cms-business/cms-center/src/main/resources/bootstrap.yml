@@ -1,5 +1,5 @@
 server:
-  port: 7005
+  port: 7888
 mall:
   nacos:
     server-addr: 47.94.4.63:8848

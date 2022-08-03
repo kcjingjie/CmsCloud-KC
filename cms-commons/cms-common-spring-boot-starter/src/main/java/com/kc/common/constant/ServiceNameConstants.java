@@ -11,25 +11,25 @@ public interface ServiceNameConstants {
     /**
      * 用户权限服务
      */
-    String USER_SERVICE = "user-center";
+    String USER_SERVICE = "user-portal";
     /**
      * 会员服务
      */
-    String MEMBER_SERVICE = "ums-center";
+    String MEMBER_SERVICE = "ums-portal";
     /**
      * 商品服务
      */
-    String GOODS_SERVICE = "goods-center";
+    String GOODS_SERVICE = "goods-portal";
     /**
      * 订单服务
      */
-    String ORDER_SERVICE = "order-center";
+    String ORDER_SERVICE = "order-portal";
     /**
      * 营销服务
      */
-    String MARKING_SERVICE = "sms-center";
+    String MARKING_SERVICE = "sms-portal";
     /**
      * 内容服务
      */
-    String CMS_SERVICE = "cms-center";
+    String CMS_SERVICE = "cms-portal";
 }

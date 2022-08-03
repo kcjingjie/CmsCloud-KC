@@ -1,0 +1,68 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/miniapp?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: 158188
+    driver-class-name: com.mysql.jdbc.Driver
+  resources:
+    static-locations: classpath:/templates/,classpath:/static/,classpath:/mapper/
+  main:
+    allow-bean-definition-overriding: true #允许Bean重复注入，后者覆盖前者
+
+  redis:
+    cluster:
+      nodes:
+        - 127.0.0.1:7001
+        - 127.0.0.1:7002
+        - 127.0.0.1:7003
+        - 127.0.0.1:7004
+        - 127.0.0.1:7005
+        - 127.0.0.1:7006
+mybatis:
+  #指定目录类型别名扫描,多个包用;号分割
+  #指定mapper.xml的位置
+  mapper-locations: mapper/*Mapper.xml
+  typeAliasesPackage: com.kc.portal.model
+  configuration:
+    #开启驼峰命名法转换字段支持,用于对象关系绑定
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    cache-enabled: true
+
+##通用mapper
+mapper:
+  mappers:
+  - com.kc.portal.utils.MyBaseMapper
+  not-empty: false
+  identity: MYSQL
+
+
+#开启debug信息
+logging:
+  enable-api-log: true
+  level:
+    root: warn
+    org:
+      springframework: INFO
+    java:
+      sql:
+        Connection: INFO
+        Statement: INFO
+    com:
+      kc:
+        portal: debug
+    cn:
+      binarywang:
+        wx:
+          miniapp: debug
+
+wx:
+  miniapp:
+    configs:
+    - appid: APPID
+      secret: SEECRET
+      token: #微信小程序消息服务器配置的token
+      aesKey: #微信小程序消息服务器配置的EncodingAESKey
+      msgDataFormat: JSON
+
+

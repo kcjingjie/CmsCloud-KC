@@ -7,21 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cms-auth" />
         <module name="cms-auth-client-spring-boot-starter" />
         <module name="cms-center" />
         <module name="cms-common-spring-boot-starter" />
         <module name="cms-db-spring-boot-starter" />
+        <module name="cms-file" />
         <module name="cms-log-spring-boot-starter" />
+        <module name="cms-portal" />
         <module name="cms-redis-spring-boot-starter" />
         <module name="cms-ribbon-spring-boot-starter" />
+        <module name="cms-search" />
         <module name="cms-sentinel-spring-boot-starter" />
-        <module name="cms-springgateway" />
         <module name="cms-swagger2-spring-boot-starter" />
         <module name="cmscenter" />
         <module name="cmsgateway" />
         <module name="mall-auth-client-spring-boot-starter" />
         <module name="mall-db-spring-boot-starter" />
         <module name="mall-redis-spring-boot-starter" />
+        <module name="springgateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

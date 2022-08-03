@@ -12,6 +12,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>cms-center</module>
+        <module>cmsportal</module>
+        <module>cms-file</module>
     </modules>
 
 

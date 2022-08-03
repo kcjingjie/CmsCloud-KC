@@ -1,0 +1,30 @@
+spring:
+    cloud:
+      gateway:
+        discovery:
+          locator:
+            enabled: true
+            lower-case-service-id: true
+        routes:
+        - id: nocas-cms-portal
+          uri: lb://cms-portal
+          predicates:
+          - Path=/**
+          filters: #过滤器，请求在传递过程中通过过滤器修改
+          - StripPrefix=1  #去掉第一层前缀
+          # 熔断降级配置
+          - name: Hystrix
+            args:
+              name: default
+              fallbackUri: 'forward:/defaultfallback'
+
+# hystrix 信号量隔离，3秒后自动超时
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 1000
+  shareSecurityContext: true

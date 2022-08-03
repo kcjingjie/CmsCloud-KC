@@ -1,0 +1,18 @@
+server:
+  port: 7200
+cms:
+  nacos:
+    server-addr: 47.94.4.63:8848
+
+spring:
+  application:
+    name: cms-search
+  cloud:
+    nacos:
+      config:
+        server-addr: ${cms.nacos.server-addr}
+        file-extension: yml
+        shared-dataids: common.yml
+        refreshable-dataids: common.yml
+      discovery:
+        server-addr: ${cms.nacos.server-addr}

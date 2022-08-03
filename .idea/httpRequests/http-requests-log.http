@@ -1,0 +1,19 @@
+GET http://localhost:7005/actuator/info
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2022-04-17T054301.200.html
+
+###
+
+GET http://localhost:7005/test
+
+<> 2022-04-09T102240.200.txt
+
+###
+
+GET http://localhost:7005/test
+
+<> 2022-04-09T101131.404.json
+
+###
+

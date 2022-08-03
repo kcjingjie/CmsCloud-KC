@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cmscloud</artifactId>
+        <groupId>com.kc</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>auth</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.kc</groupId>
+            <artifactId>cms-common-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kc</groupId>
+            <artifactId>cms-auth-client-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kc</groupId>
+            <artifactId>cms-db-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kc</groupId>
+            <artifactId>cms-redis-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kc</groupId>
+            <artifactId>cms-ribbon-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.kc</groupId>
+            <artifactId>cms-sentinel-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- swagger -->
+        <dependency>
+            <groupId>com.kc</groupId>
+            <artifactId>cms-swagger2-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <!-- kaptcha 验证码生成工具 -->
+        <dependency>
+            <groupId>com.github.axet</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!-- hutool java工具类库  -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+        <!--JWT(Json Web Token)登录支持-->
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>${nimbus-jose-jwt.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

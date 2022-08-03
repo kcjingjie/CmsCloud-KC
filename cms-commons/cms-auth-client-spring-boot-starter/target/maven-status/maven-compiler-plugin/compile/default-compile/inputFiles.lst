@@ -1,0 +1,16 @@
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\service\IPermissionService.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\store\ResJwtTokenStore.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\properties\SecurityProperties.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\store\AuthDbTokenStore.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\service\impl\DefaultPermissionServiceImpl.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\constants\AuthoritiesEnum.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\config\DefaultSecurityHandlerConfig.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\properties\ValidateCodeProperties.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\config\DefaultResourceServerConf.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\store\RedisTemplateTokenStore.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\properties\PermitProperties.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\store\AuthJwtTokenStore.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\config\TokenStoreConfig.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\properties\AuthProperties.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\util\AuthUtils.java
+D:\ideaproject\CmsCloud-KC\cms-commons\cms-auth-client-spring-boot-starter\src\main\java\com\kc\oauth2\common\store\AuthRedisTokenStore.java

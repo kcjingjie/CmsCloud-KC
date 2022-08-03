@@ -2,12 +2,14 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-business" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-business/cms-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-business/cms-file" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-business/cmsportal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-commons/cms-auth-client-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-commons/cms-common-spring-boot-starter" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cms-commons/cms-commons-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-commons/cms-db-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-commons/cms-log-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-commons/cms-redis-spring-boot-starter" charset="UTF-8" />
@@ -15,6 +17,7 @@
     <file url="file://$PROJECT_DIR$/cms-commons/cms-sentinel-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-commons/cms-swagger2-spring-boot-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cms-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cms-gateway/cmsgateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-gateway/springgateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cms-search" charset="UTF-8" />
   </component>
 </project>

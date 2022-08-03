@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @Author: mall
+ * @Author: kc
  */
 @Data
 @NoArgsConstructor

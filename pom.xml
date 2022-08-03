@@ -41,6 +41,7 @@
         <spring-boot-dependencies.version>2.0.8.RELEASE</spring-boot-dependencies.version>
         <spring-cloud-dependencies.version>Finchley.SR3</spring-cloud-dependencies.version>
         <spring-boot-maven-plugin.version>2.1.1.RELEASE</spring-boot-maven-plugin.version>
+        <nimbus-jose-jwt.version>8.16</nimbus-jose-jwt.version>
         <docker-maven-plugin.version>1.2.0</docker-maven-plugin.version>
         <sonar.exclusions>mall-job/**/*, mall-register/**/*, mall-web/**/*</sonar.exclusions>
         <docker.baseImage>openjdk:8-jre-alpine</docker.baseImage>
@@ -314,6 +315,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!--JWT(Json Web Token)登录支持-->
+            <dependency>
+                <groupId>com.nimbusds</groupId>
+                <artifactId>nimbus-jose-jwt</artifactId>
+                <version>${nimbus-jose-jwt.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -322,6 +330,8 @@
         <module>cms-gateway</module>
         <module>cms-commons</module>
         <module>cms-business</module>
+        <module>cms-auth</module>
+        <module>cms-search</module>
     </modules>
 
 </project>

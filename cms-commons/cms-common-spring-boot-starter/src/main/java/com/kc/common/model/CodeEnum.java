@@ -1,7 +1,7 @@
 package com.kc.common.model;
 
 /**
- * @Author: mall
+ * @Author: KC
  */
 public enum CodeEnum {
     SUCCESS(200),

@@ -34,7 +34,7 @@ public class ApiController {
 
     @PostMapping("getCategory")
     public List<CommonVO> getCategory() throws InterruptedException {
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         return apiService.getCategory();
     }
 

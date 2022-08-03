@@ -2,9 +2,9 @@ package com.kc.db.config;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;
-
 /**
  * 自定义填充公共 name 字段
+
  *
  * @author mall
  * @date 2018/12/11

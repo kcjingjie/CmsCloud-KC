@@ -1,0 +1,3 @@
+com\kc\cms\config\WebSecurityConfig.class
+com\kc\cms\config\AuthorizationServerConfig.class
+com\kc\cms\CmsAuthApplication.class
